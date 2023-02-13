@@ -44,11 +44,7 @@ docker build -t user-managment .
 docker run -d -p 8001:8001 --network marvel-network --ip 172.18.0.11 --name user-container user-managment
 ```
 
-<<<<<<< Updated upstream
-8. Your Marvel-backend should now be up and running in http://127.0.0.1:8001!
-=======
-8. Your User-Management should now be up and running in http://127.0.0.1:8000!
->>>>>>> Stashed changes
+8. Your User-Management should now be up and running in http://127.0.0.1:8001!
 
 ### In local
 
