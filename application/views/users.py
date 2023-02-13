@@ -27,7 +27,8 @@ class ManageUser(MethodView):
             'id': str(info_user.get('_id')),
             'name': info_user.get('name'),
             'age': age,
-            'token': info_user.get('access_token')
+            'token': info_user.get('access_token'),
+            'comics_layaway': info_user.get('comics_layaway')
         }
         app.logger.debug(f'Profile response {response}')
         return response, 200
