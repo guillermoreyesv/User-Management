@@ -44,7 +44,11 @@ docker build -t user-managment .
 docker run -d -p 8001:8001 --network marvel-network --ip 172.18.0.11 --name user-container user-managment
 ```
 
+<<<<<<< Updated upstream
 8. Your Marvel-backend should now be up and running in http://127.0.0.1:8001!
+=======
+8. Your User-Management should now be up and running in http://127.0.0.1:8000!
+>>>>>>> Stashed changes
 
 ### In local
 
@@ -68,7 +72,7 @@ pip install --no-cache-dir -r requirements.txt
 python run.py
 ```
 
-9. Your Marvel-backend should now be up and running in http://127.0.0.1:5000!
+9. Your User-Management should now be up and running in http://127.0.0.1:5000!
 
 ## Deployment
 To deploy this application to a production environment, you will need to follow the steps above, making any necessary modifications to match your environment.
