@@ -1,5 +1,5 @@
 # User-Management
-This is a Flask-based backend for the Marvel application. It uses MongoDB as the database and is contained within a Docker container for ease of deployment.
+This is a Flask-based backend for Manage Users. It uses MongoDB as the database and is contained within a Docker container for ease of deployment.
 
 ## Getting Started
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
@@ -44,7 +44,7 @@ docker build -t user-managment .
 docker run -d -p 8001:8001 --network marvel-network --ip 172.18.0.11 --name user-container user-managment
 ```
 
-8. Your Marvel-backend should now be up and running in http://127.0.0.1:8000!
+8. Your Marvel-backend should now be up and running in http://127.0.0.1:8001!
 
 ### In local
 
